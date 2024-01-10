@@ -103,7 +103,7 @@ const config = {
 		}
 	},
 	search: 'true',
-    ....
+    ...π.
 }
 
 ```
@@ -138,6 +138,8 @@ $ npm run cms-proxy-server
 
 Now you can open Static CMS on http://localhost:4321/admin/
 
+## 🌍 i18n
+Not officially supported by Nebulix, [alternatives solution](https://docs.astro.build/en/recipes/i18n/)
 
 ## ❌ Removing Collections
 If your cosmic journey excludes a blog, portfolio, shop, or restaurant menu, simply remove the corresponding documents from the `src/content`. Additionally, erase the page templates from `src/pages` .
