@@ -1,9 +1,9 @@
 ---
-title: Interstellar Webshop
-description: Our online store is out of this world
-intro: Sell your goods in style
+title: Verkoop en verhuur
+description: Verkoop en verhuur
+intro: Wat extra info over verkoop en verhuur
 hero_buttons:
-  - icon_only: false
+  - icon_only: true
     label: Shop Now
     href: "#more"
     icon: /src/icons/down-line.svg
@@ -12,84 +12,91 @@ blocks:
     component: ShopCategories
     container: md
     template: grid
-    title: Categories
+    title: Categorieën
     animate: false
     categories:
-      - "Merch"
-      - Donations
-      - Licenses
-  - type: shop_products
-    component: ShopProducts
-    count: 4
-    container: md
-    template: list
-    title: Fresh Products
-    animate: false
-    categories:
-      - "Merch"
-    content: >
-      Our define collection of fictional merch from the Draco Void Convergence,
-      shipping time under 200 lightyears. check out our amazing collection.
+      - Zuigers
+      - Kranen
+      - C-haken
+
   - type: text_image
     component: TextImage
-    container: none
-    template: banner
-    title: My Image
-    image_size: "50"
+    container: md
+    template: column
+    title: ""
+    image_size: "66"
     reverse: false
     animate: false
-    thumbnail: /src/assets/cosmic_coffee_2.jpeg
     content: >
-      ## **Caffeinate a developer** Brewing Inspiration, One Cup at a Time.
+      ## Zuigers
 
 
-      Sip on the satisfaction of knowing that your donation is a key ingredient in fueling creativity. Your support empowers artists, writers, musicians, and content creators to keep innovating, producing, and delighting the world with their work. With each cup of virtual coffee, you’re helping transform visions into reality.
-    buttons:
-      - icon_only: false
-        label: Buy me a coffee
-        href: "#"
-        color: surface-success
-    block_class: my-0
+      Extra informatie over verkoop en verhuur van zuigers
+    thumbnail: /src/assets/zuigers.jpeg
+    surface: surface-primary
+
   - type: shop_products
     component: ShopProducts
-    count: 10
+    count: 100
     container: md
     template: flex
     title: ""
     animate: false
     categories:
-      - Donations
-    block_class: mb-8
+      - Zuigers
+
   - type: text_image
     component: TextImage
     container: md
     template: column
-    title: Magic bean bag
+    title: ""
     image_size: "66"
     reverse: true
     animate: false
     content: >
-      ## Merch Store
+      ## Kranen
 
 
-      Explore our Interstellar Webshop featuring products that are truly out of this world. Dive into a cosmic collection as vast as the universe itself.
-    thumbnail: /src/assets/nebulix-ben-bag.png
-    buttons:
-      - icon_only: false
-        label: Shop App productrs
-        href: "#"
-        color: bg-[#fc0] text-black
-        icon: /src/icons/shopping-cart.svg
+      Extra informatie over verkoop en verhuur van kranen
+    thumbnail: /src/assets/kranen.jpeg
     surface: surface-primary
-    block_class: ""
+
   - type: shop_products
     component: ShopProducts
-    count: 9
+    count: 100
     container: md
     template: flex
+    title: ""
     animate: false
     categories:
-      - "Merch"
+      - Kranen
+
+  - type: text_image
+    component: TextImage
+    container: md
+    template: column
+    title: ""
+    image_size: "66"
+    reverse: false
+    animate: false
+    content: >
+      ## C-haken
+
+
+      Extra informatie over verkoop en verhuur van C-haken
+    thumbnail: /src/assets/c-haken.jpeg
+    surface: surface-primary
+
+  - type: shop_products
+    component: ShopProducts
+    count: 100
+    container: md
+    template: flex
+    title: ""
+    animate: false
+    categories:
+      - Kranen
+
 style:
   template: full
   hero_template: image
@@ -97,5 +104,5 @@ style:
   card_template: grid
   hero_image_opacity: "0.6"
   hero_surface: surface-dark
-thumbnail: /src/assets/nebulix_merch.jpeg
+thumbnail: /src/assets/glass_backdrop.jpg
 ---
